@@ -1,0 +1,25 @@
+{
+ "app": "ProFit: Workout Planner",
+ "domain": "vgfit.com",
+ "scope": "flow",
+ "live_url": "https://eddieatadapty.github.io/profit-flow-rebuild/",
+ "flows": [
+  {"channel": "YouTube", "headline": "Every exercise, done right", "paywall_opens_on": "Monthly Plan, $15.99", "note": "the lat pulldown from the ad on video, with its form, before any price"},
+  {"channel": "Meta", "headline": "15 minutes a day. No gym needed", "paywall_opens_on": "Weekly Plan with the 3-day free trial", "note": "Day 1 of 28 started before the paywall"},
+  {"channel": "Meta", "headline": "Your body deserves a plan", "paywall_opens_on": "Yearly Plan, $79.99", "note": "Monday’s workout open, one set logged, before any price"}
+ ],
+ "today": {"text": "every install answers level, goal and days, meets two system prompts and “Creating your Personal Plan”, then one “Join Millions of Happy Users” paywall at $3.99/week", "source": "audit_frames"},
+ "prices": {"weekly": "$3.99", "monthly": "$15.99", "yearly": "$79.99", "offer": "$2.99 a week (Weekly Plan, One Time Offer)", "trial": "3 days", "source": "US App Store listing (In-App Purchases); their paywall as recorded on 25 Nov 2026"},
+ "asks": ["What's your fitness level?", "What's your Fitness goal?", "How Often per week do you want to workout?"],
+ "paywall": {"headline": "Join Millions of Happy Users", "uses_answers": false},
+ "rebuild": "each ad opens its own first launch: the ad’s promise first, one question, a first workout before any price, a paywall that names their answer, and their own $2.99 One Time Offer on close",
+ "ideas": [
+  {"n": 1, "title": "A first workout before the price", "screen": "First win", "outcome": "CR +10–20%"},
+  {"n": 2, "title": "Name their answer on the paywall", "screen": "Paywall", "outcome": "CR +10–15%"},
+  {"n": 3, "title": "Put your Yearly Plan on the paywall", "screen": "Paywall", "outcome": "ARPU +10–20%"},
+  {"n": 4, "title": "Proof on the screen where they pay", "screen": "Paywall", "outcome": "CR +5–10%"},
+  {"n": 5, "title": "Catch the people who close it", "screen": "On close", "outcome": "CR +5–10%"}
+ ],
+ "outcome": {"purchases": "+10–20%", "arpu": "+10–20%"},
+ "languages": ["EN", "ES", "RU"]
+}
